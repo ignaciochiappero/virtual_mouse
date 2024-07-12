@@ -1,0 +1,32 @@
+# Archivos de configuración locales
+.idea/
+
+# Archivos generados por Python
+__pycache__/
+*.pyc
+
+# Archivos de logs y caché
+*.log
+logs/
+
+# Archivos de entorno y credenciales (si corresponde)
+.env
+.env.*
+
+# Archivos específicos de tu editor o IDE (si corresponde)
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de dependencias (puedes incluirlos si manejas las dependencias de otra forma)
+venv/
+venv
+env/
+env
+
+# Archivos o directorios específicos de tu sistema operativo o herramientas locales
+.DS_Store
+Thumbs.db
+
+# Otros archivos o directorios que no deben ser versionados
+*.swp

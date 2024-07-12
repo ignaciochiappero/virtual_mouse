@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Virtual - Reconocimiento de Mano</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        #video_feed {
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mouse Virtual - Reconocimiento de Mano</h1>
+    <p>Mueve tu mano frente a la cámara para interactuar:</p>
+    <img id="video_feed" src="{{ url_for('video_feed') }}" alt="Video feed" />
+
+    <script>
+        // Script opcional para manejar interacciones adicionales
+    </script>
+</body>
+</html>
